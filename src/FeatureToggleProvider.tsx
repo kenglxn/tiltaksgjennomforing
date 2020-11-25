@@ -3,7 +3,7 @@ import { hentFeatureToggles } from './services/rest-service';
 
 export enum Feature {
     Mentor = 'tag.tiltak.mentor',
-    ArbeidsgiverOppretter = 'tag.tiltak.arbeidsgiver.oppretter',
+    ArbeidsgiverOppretter = 'tag.tiltak.arbeidsgiver.med.orgnr.oppretter',
 }
 
 export const alleFeatures = Object.values(Feature);
