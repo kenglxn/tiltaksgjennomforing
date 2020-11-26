@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useState } from 'react';
 import { hentFeatureToggles } from './services/rest-service';
 
 export enum Feature {
-    // Mentor = 'tag.tiltak.mentor',
+    Mentor = 'tag.tiltak.mentor',
     ArbeidsgiverOppretter = 'tag.tiltak.arbeidsgiver.oppretter.orgnr',
 }
 
