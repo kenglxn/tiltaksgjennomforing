@@ -5,12 +5,14 @@ export enum Feature {
     Mentor = 'tag.tiltak.mentor',
     ArbeidsgiverOppretter = 'tag.tiltak.arbeidsgiver.oppretter',
     VisningAvTilskuddsPerioder = 'tag.tiltak.viseTilskuddsPerioder',
+    VisNedetidBanner = 'tag.tiltak.visNedetidBanner',
+    FinnesIkke = 'tag.tiltak.finnesIkke',
 }
 
 export const alleFeatures = Object.values(Feature);
 
 export interface FeatureToggles {
-    [toggles: string]: boolean;
+    [toggles: string]: { enabled: boolean; payload: { type: string; value: null | string } };
 }
 
 export const FeatureToggleContext = createContext<FeatureToggles>({});
