@@ -1,7 +1,7 @@
 const internalSciptUri =
-    'https://internarbeidsflatedecorator.nais.adeo.no/internarbeidsflatedecorator/v2/static/js/head.v2.min.js';
+    'https://internarbeidsflatedecorator.nais.adeo.no/internarbeidsflatedecorator/v2.1/static/js/head.v2.min.js';
 const internalStyleUri =
-    'https://internarbeidsflatedecorator.nais.adeo.no/internarbeidsflatedecorator/v2/static/css/main.css';
+    'https://internarbeidsflatedecorator.nais.adeo.no/internarbeidsflatedecorator/v2.1/static/css/main.css';
 
 const externalMenuUri = 'https://www.nav.no/dekoratoren/?context=arbeidsgiver&redirectToApp=true&level=Level4/no/';
 
